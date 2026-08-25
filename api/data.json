@@ -1,0 +1,316 @@
+{
+  "month_mtd": {
+    "orders": 779,
+    "revenue": 653919.0
+  },
+  "prev_month": {
+    "orders": 673,
+    "revenue": 479515.0
+  },
+  "daily_summary": [
+    {
+      "date": "2026-05-01",
+      "orders": 23,
+      "revenue": 19980.5
+    },
+    {
+      "date": "2026-05-02",
+      "orders": 28,
+      "revenue": 20654.1
+    },
+    {
+      "date": "2026-05-03",
+      "orders": 12,
+      "revenue": 8888.11
+    },
+    {
+      "date": "2026-05-04",
+      "orders": 29,
+      "revenue": 21161.8
+    },
+    {
+      "date": "2026-05-05",
+      "orders": 31,
+      "revenue": 24211.0
+    },
+    {
+      "date": "2026-05-06",
+      "orders": 12,
+      "revenue": 10752.5
+    },
+    {
+      "date": "2026-05-07",
+      "orders": 13,
+      "revenue": 14480.5
+    },
+    {
+      "date": "2026-05-08",
+      "orders": 28,
+      "revenue": 22010.1
+    },
+    {
+      "date": "2026-05-09",
+      "orders": 45,
+      "revenue": 30470.2
+    },
+    {
+      "date": "2026-05-10",
+      "orders": 33,
+      "revenue": 24972.0
+    },
+    {
+      "date": "2026-05-11",
+      "orders": 34,
+      "revenue": 23615.2
+    },
+    {
+      "date": "2026-05-12",
+      "orders": 45,
+      "revenue": 34538.0
+    },
+    {
+      "date": "2026-05-13",
+      "orders": 26,
+      "revenue": 23198.2
+    },
+    {
+      "date": "2026-05-14",
+      "orders": 31,
+      "revenue": 28109.2
+    },
+    {
+      "date": "2026-05-15",
+      "orders": 48,
+      "revenue": 38010.0
+    },
+    {
+      "date": "2026-05-16",
+      "orders": 43,
+      "revenue": 42929.6
+    },
+    {
+      "date": "2026-05-17",
+      "orders": 28,
+      "revenue": 23789.7
+    },
+    {
+      "date": "2026-05-18",
+      "orders": 24,
+      "revenue": 25657.6
+    },
+    {
+      "date": "2026-05-19",
+      "orders": 27,
+      "revenue": 20824.5
+    },
+    {
+      "date": "2026-05-20",
+      "orders": 34,
+      "revenue": 30225.3
+    },
+    {
+      "date": "2026-05-21",
+      "orders": 41,
+      "revenue": 32422.8
+    },
+    {
+      "date": "2026-05-22",
+      "orders": 30,
+      "revenue": 25737.2
+    },
+    {
+      "date": "2026-05-23",
+      "orders": 39,
+      "revenue": 30814.3
+    },
+    {
+      "date": "2026-05-24",
+      "orders": 31,
+      "revenue": 26838.1
+    },
+    {
+      "date": "2026-05-25",
+      "orders": 44,
+      "revenue": 49623.6
+    }
+  ],
+  "monthly_summary": [
+    {
+      "month": "Jan 26",
+      "orders": 322,
+      "revenue": 215320.0
+    },
+    {
+      "month": "Feb 26",
+      "orders": 402,
+      "revenue": 290167.0
+    },
+    {
+      "month": "Mar 26",
+      "orders": 464,
+      "revenue": 339437.0
+    },
+    {
+      "month": "Apr 26",
+      "orders": 673,
+      "revenue": 479515.0
+    },
+    {
+      "month": "May 26",
+      "orders": 970,
+      "revenue": 818589.0
+    }
+  ],
+  "top_destinations": [
+    {
+      "orders": 275,
+      "destination": "Plastic SIM - Thailand [True] - 50 GB For 30 Days"
+    },
+    {
+      "orders": 190,
+      "destination": "eSIM - Thailand - 50 GB For 10 Days"
+    },
+    {
+      "orders": 33,
+      "destination": "eSIM - Vietnam - 5 GB/Day For 20 Days"
+    },
+    {
+      "orders": 13,
+      "destination": "Vietnam - 1 GB for 7 Days"
+    },
+    {
+      "orders": 13,
+      "destination": "Japan - 1 GB for 7 Days"
+    },
+    {
+      "orders": 12,
+      "destination": "Plastic SIM - Vietnamobile - 5 GB/Day For 20 Days"
+    },
+    {
+      "orders": 9,
+      "destination": "Plastic SIM - Singapore, Malaysia - 1 GB/Day For 7 Days"
+    },
+    {
+      "orders": 9,
+      "destination": "eSIM - Singapore, Malaysia, Indonesia, Thailand - 2 GB/Day For 7 Days"
+    },
+    {
+      "orders": 8,
+      "destination": "eSIM - Orange World - 20 GB For 30 Days"
+    },
+    {
+      "orders": 8,
+      "destination": "United Kingdom - 1 GB for 7 Days"
+    }
+  ],
+  "daily_leaderboard": [
+    {
+      "arpu": 735.03,
+      "target": 125,
+      "sales_rep": "Faizan",
+      "day_orders": 10,
+      "mtd_orders": 231,
+      "day_revenue": 9144.04,
+      "mtd_revenue": 186075.0,
+      "target_percent": 184.8
+    },
+    {
+      "arpu": 756.82,
+      "target": 125,
+      "sales_rep": "Prabhat",
+      "day_orders": 5,
+      "mtd_orders": 118,
+      "day_revenue": 4572.02,
+      "mtd_revenue": 99645.3,
+      "target_percent": 94.4
+    },
+    {
+      "arpu": 836.18,
+      "target": 125,
+      "sales_rep": "Talha",
+      "day_orders": 12,
+      "mtd_orders": 115,
+      "day_revenue": 19650.8,
+      "mtd_revenue": 105750.0,
+      "target_percent": 92.0
+    },
+    {
+      "arpu": 751.15,
+      "target": 125,
+      "sales_rep": "Sanika",
+      "day_orders": 3,
+      "mtd_orders": 110,
+      "day_revenue": 1777.12,
+      "mtd_revenue": 88804.8,
+      "target_percent": 88.0
+    },
+    {
+      "arpu": 778.81,
+      "target": 125,
+      "sales_rep": "Bhageshri",
+      "day_orders": 4,
+      "mtd_orders": 84,
+      "day_revenue": 4488.14,
+      "mtd_revenue": 67640.5,
+      "target_percent": 67.2
+    },
+    {
+      "arpu": 791.56,
+      "target": 125,
+      "sales_rep": "Nidhi",
+      "day_orders": 8,
+      "mtd_orders": 71,
+      "day_revenue": 7874.55,
+      "mtd_revenue": 62651.5,
+      "target_percent": 56.8
+    },
+    {
+      "arpu": 710.11,
+      "target": 125,
+      "sales_rep": "Karishma",
+      "day_orders": 2,
+      "mtd_orders": 49,
+      "day_revenue": 2116.95,
+      "mtd_revenue": 42416.0,
+      "target_percent": 39.2
+    },
+    {
+      "arpu": 931.36,
+      "target": 125,
+      "sales_rep": "Rahul",
+      "day_orders": 0,
+      "mtd_orders": 1,
+      "day_revenue": 0,
+      "mtd_revenue": 931.36,
+      "target_percent": 0.8
+    },
+    {
+      "arpu": 614.67,
+      "target": 125,
+      "sales_rep": "Rahel",
+      "day_orders": 0,
+      "mtd_orders": 0,
+      "day_revenue": 0,
+      "mtd_revenue": 0,
+      "target_percent": 0.0
+    },
+    {
+      "arpu": 733.61,
+      "target": 125,
+      "sales_rep": "Nadeem",
+      "day_orders": 0,
+      "mtd_orders": 0,
+      "day_revenue": 0,
+      "mtd_revenue": 0,
+      "target_percent": 0.0
+    }
+  ],
+  "today_performance": {
+    "orders": 44,
+    "revenue": 49623.6
+  },
+  "prev_month_same_day": {
+    "orders": 38,
+    "revenue": 27594.8
+  }
+}
