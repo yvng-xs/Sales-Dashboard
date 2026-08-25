@@ -1,15 +1,4 @@
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-function loadFixture() {
-  return JSON.parse(
-    fs.readFileSync(path.join(__dirname, "data.json"), "utf8")
-  );
-}
+import fixture from "./data.json" with { type: "json" };
 
 export default function handler(req, res) {
   const date = String(req.query.date || "2026-05-25");
@@ -21,8 +10,6 @@ export default function handler(req, res) {
   }
 
   try {
-    const fixture = loadFixture();
-
     const daily =
       fixture.daily_summary.find((d) => d.date === date) ||
       fixture.daily_summary[fixture.daily_summary.length - 1];
@@ -45,7 +32,7 @@ export default function handler(req, res) {
     const previousDay = new Date(`${date}T00:00:00`);
     previousDay.setMonth(previousDay.getMonth() - 1);
 
-    res.status(200).json({
+    return res.status(200).json({
       selected_date: date,
       today_performance: daily,
       month_mtd: monthMtd,
@@ -61,7 +48,8 @@ export default function handler(req, res) {
     });
   } catch (error) {
     console.error(error);
-    res.status(500).json({
+
+    return res.status(500).json({
       error: "Unable to load dashboard data"
     });
   }
