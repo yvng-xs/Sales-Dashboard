@@ -86,7 +86,7 @@ export default function Dashboard() {
       <div className="dashboard-shell">
         <header className="topbar">
           <div className="topbar-inner">
-            <div className="brand"><div className="brand-mark"><Sparkles size={18}/></div><div><div className="brand-name">Janvi Sales Pulse</div><div className="brand-subtitle">Sales workspace</div></div></div>
+            <div className="brand"><div className="brand-mark"><Sparkles size={18}/></div><div><div className="brand-name">Sales Pulse</div><div className="brand-subtitle">Sales workspace</div></div></div>
             <div className="search-box"><Search size={14}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search salesperson…"/></div>
             <div className="toolbar">
               <label className="control date-control"><CalendarDays size={14}/><input type="date" value={selectedDate} onChange={e=>setSelectedDate(e.target.value)}/></label>
